@@ -17,25 +17,25 @@ variable "efs_namespace" {
 ##############################################################################
 
 variable "cluster_name" {
-  type    = string
+  type = string
 }
 
 variable "vpc_id" {
-  type    = string
+  type = string
 }
 
 variable "subnets" {
-  type    = list(string)
+  type = list(string)
 }
 
 variable "node_security_group_id" {
-  type    = string
+  type = string
 }
 
 variable "oidc_provider_arn" {
-  type    = string
+  type = string
 }
 
 variable "cluster_oidc_issuer_url" {
-  type    = string
+  type = string
 }
